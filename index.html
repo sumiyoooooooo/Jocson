@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="counter-container">
+        <h1>Counter App</h1>
+        <div class="counter">
+            <button id="decrement-btn" onclick="decrement()">-</button>
+            <span id="count">0</span>
+            <button id="increment-btn" onclick="increment()">+</button>
+        </div>
+        <button id="reset-btn" onclick="reset()">Reset</button>
+        <div class="previous-entries" id="previous-entries">
+            <h2>Previous Entries:</h2>
+            <ul id="entries-list"></ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
